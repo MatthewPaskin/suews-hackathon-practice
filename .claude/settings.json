@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "suews": {
+      "source": {
+        "source": "github",
+        "repo": "UMEP-dev/suews-agent"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "suews@suews": true
+  }
+}

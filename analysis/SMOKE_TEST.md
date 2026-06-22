@@ -34,8 +34,9 @@ with plausible daily-mean T2 of ~6–11 °C for a London January. Output shape
 
 On the day, runs are driven through the [suews-agent](https://github.com/UMEP-dev/suews-agent),
 a Claude Code / Codex plugin that wraps SUEWS (it launches the `suews-mcp` server
-via `uvx`). For this practice setup the underlying engine (`supy`) was exercised
-directly to confirm the model itself runs end to end.
+via `uvx`). This first check exercised the underlying engine (`supy`) directly;
+the agent layer itself has since been verified end to end (init → validate →
+inspect → run → summarise) — see [`agent_smoke/AGENT_RUN.md`](agent_smoke/AGENT_RUN.md).
 
 ## Citing SUEWS
 

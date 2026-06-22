@@ -7,3 +7,6 @@ __pycache__/
 # SUEWS runtime logs
 SuPy.log
 *.log
+
+# Bulky raw run output (summary kept in AGENT_RUN.md)
+analysis/agent_smoke/Output/
