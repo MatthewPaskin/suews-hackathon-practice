@@ -3,3 +3,7 @@ __pycache__/
 *.pyc
 .venv/
 .ipynb_checkpoints/
+
+# SUEWS runtime logs
+SuPy.log
+*.log
